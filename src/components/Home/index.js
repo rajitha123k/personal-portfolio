@@ -64,13 +64,14 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <img
-          className="image-zone"
-          src={MyPic}
-          alt="JavaScript Developer Name, Web Developer Name"
-        />
+
         {/* <Logo /> */}
       </div>
+      <img
+        className="image-zone"
+        src={MyPic}
+        alt="JavaScript Developer Name, Web Developer Name"
+      />
 
       <Loader type="pacman" />
     </>

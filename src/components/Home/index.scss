@@ -125,9 +125,21 @@
 
 .image-zone {
   position: absolute;
-  right: 10%;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 30%;
-  max-height: 90%;
+  align-self: center;
+  top: 40%;
+  transform: translateY(-80%);
+  transform: translateX(5%);
+  width: 90%;
+  height: 50%;
+}
+
+@media (min-width: 1200px) {
+  .image-zone {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    max-height: auto;
+  }
 }
