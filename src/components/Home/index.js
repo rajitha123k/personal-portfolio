@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import MyPic from '../../assets/images/my_pic.jpg'
+import MyResume from '../../assets/files/my_resume.pdf'
 //import Logo from './Logo'
 import './index.scss'
 
@@ -33,6 +34,21 @@ const Home = () => {
   //     }, 4000)
   //   }, [])
 
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch(MyResume).then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob)
+        // Setting various property values
+        let alink = document.createElement('a')
+        alink.href = fileURL
+        alink.download = MyResume
+        alink.click()
+      })
+    })
+  }
+
   return (
     <>
       <div className="container home-page">
@@ -60,9 +76,9 @@ const Home = () => {
             /> */}
           </h1>
           <h2>Full Stack / Android Developer / Machine Learning Scientist</h2>
-          <Link to="/contact" className="flat-button">
-            CONTACT ME
-          </Link>
+          <button onClick={onButtonClick} className="flat-button">
+            RESUME
+          </button>
         </div>
 
         {/* <Logo /> */}
