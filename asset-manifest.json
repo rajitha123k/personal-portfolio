@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.1c923c3c.css",
-    "main.js": "/personal-portfolio/static/js/main.f9dc3870.js",
+    "main.css": "/personal-portfolio/static/css/main.66c609bc.css",
+    "main.js": "/personal-portfolio/static/js/main.69e6ac5c.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/my_pic.jpg": "/personal-portfolio/static/media/my_pic.a999cf941f2895a64859.jpg",
+    "static/media/my_resume.pdf": "/personal-portfolio/static/media/my_resume.ff169fd5ac212e65ad31.pdf",
     "static/media/helvetica-neu.ttf": "/personal-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/logo_sub.png": "/personal-portfolio/static/media/logo_sub.19f3ab25ab15fd848b30.png",
     "static/media/LaBelleAurore.woff2": "/personal-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/logo-s.png": "/personal-portfolio/static/media/logo-s.bfc9f81846bda5218dab.png",
     "static/media/CoolveticaRg-Regular.woff2": "/personal-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/personal-portfolio/index.html",
-    "main.1c923c3c.css.map": "/personal-portfolio/static/css/main.1c923c3c.css.map",
-    "main.f9dc3870.js.map": "/personal-portfolio/static/js/main.f9dc3870.js.map",
+    "main.66c609bc.css.map": "/personal-portfolio/static/css/main.66c609bc.css.map",
+    "main.69e6ac5c.js.map": "/personal-portfolio/static/js/main.69e6ac5c.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c923c3c.css",
-    "static/js/main.f9dc3870.js"
+    "static/css/main.66c609bc.css",
+    "static/js/main.69e6ac5c.js"
   ]
 }
