@@ -9,6 +9,10 @@
   overflow: hidden;
 }
 
+.white-color {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
 .cubespinner {
   animation-name: spincube;
   animation-timing-function: ease-in-out;

@@ -1,6 +1,7 @@
 import './index.scss'
 import { useState } from 'react'
 import LogoS from '../../assets/images/logo-s.png'
+import Icon from '../../assets/images/myicon.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -15,6 +16,9 @@ import {
   faSuitcase,
   faBars,
   faClose,
+  faCog,
+  faLaptopCode,
+  faGraduationCap,
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
@@ -24,8 +28,7 @@ const Sidebar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/" onClick={() => setShowNav(false)}>
-        <img src={LogoS} alt="Logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+        <img src={Icon} alt="Logo" />
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink
@@ -46,11 +49,35 @@ const Sidebar = () => {
         </NavLink>
         <NavLink
           activeclassname="active"
-          className="portfolio-link"
-          to="/portfolio"
+          className="experience-link"
+          to="/experience"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          activeclassname="active"
+          className="education-link"
+          to="/education"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faGraduationCap} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          activeclassname="active"
+          className="skills-link"
+          to="/skills"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faCog} className="fa-spin" color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          activeclassname="active"
+          className="project-link"
+          to="/project"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faLaptopCode} color="#4d4d4e" />
         </NavLink>
         <NavLink
           activeclassname="active"

@@ -32,7 +32,7 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <h2>
+          <h2 className="white-color">
             A programming lover,having hands on experience in developing
             products related to IOT, deep learning and Java. Currently, I have
             made myself involved in identifying real world problems and execute
