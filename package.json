@@ -1,8 +1,8 @@
 {
-  "name": "react-portfolio",
+  "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rajitha123k.github.io/",
+  "homepage": "http://rajitha123k.github.io/personal-portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
