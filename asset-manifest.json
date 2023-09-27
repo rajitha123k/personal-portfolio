@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.d0652968.css",
-    "main.js": "/personal-portfolio/static/js/main.b0ab950e.js",
+    "main.js": "/personal-portfolio/static/js/main.cafb8008.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/my_pic.jpg": "/personal-portfolio/static/media/my_pic.a999cf941f2895a64859.jpg",
-    "static/media/my_resume.pdf": "/personal-portfolio/static/media/my_resume.ff169fd5ac212e65ad31.pdf",
+    "static/media/Rajitha_Android_Resume.pdf": "/personal-portfolio/static/media/Rajitha_Android_Resume.d7ed832dd17e0c807bdd.pdf",
+    "static/media/Rajitha_ML_Resume.pdf": "/personal-portfolio/static/media/Rajitha_ML_Resume.df47acf86c1891d78cc6.pdf",
+    "static/media/Rajitha_Front_Resume.pdf": "/personal-portfolio/static/media/Rajitha_Front_Resume.f0706e5573033a21136b.pdf",
     "static/media/helvetica-neu.ttf": "/personal-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/logo_sub.png": "/personal-portfolio/static/media/logo_sub.19f3ab25ab15fd848b30.png",
     "static/media/LaBelleAurore.woff2": "/personal-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
@@ -12,11 +14,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/personal-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/personal-portfolio/index.html",
     "main.d0652968.css.map": "/personal-portfolio/static/css/main.d0652968.css.map",
-    "main.b0ab950e.js.map": "/personal-portfolio/static/js/main.b0ab950e.js.map",
+    "main.cafb8008.js.map": "/personal-portfolio/static/js/main.cafb8008.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0652968.css",
-    "static/js/main.b0ab950e.js"
+    "static/js/main.cafb8008.js"
   ]
 }
